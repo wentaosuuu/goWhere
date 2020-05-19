@@ -1,7 +1,7 @@
 import React from 'react';
-import ReactDom from 'react-dom';
+import ReactDOM from 'react-dom';
 import {Provider} from 'react-redux';
-import 'normalize.css/normalize.css'; // 通过npm i normalize.css --save获取
+import 'normalize.css/normalize.css';
 
 import store from './store';
 import './index.css';
@@ -9,7 +9,7 @@ import App from './App';
 
 import * as serviceWorker from '../serviceWorker';
 
-ReactDom.render(
+ReactDOM.render(
   <Provider store={store}>
     <App/>
   </Provider>,
